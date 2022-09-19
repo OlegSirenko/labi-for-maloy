@@ -1,5 +1,5 @@
 #include "stdio.h"
-/*
+
 // <- однострочный комментарий
 // ПРИМЕР 1
 int main()                      // Объявление функции
@@ -8,22 +8,22 @@ int main()                      // Объявление функции
     return 0;                   // выход из функции. 0 - код успешного выполнения функции
 }
 //___________________//
-*/
+
 /* <- многострочный комментарий */
 
-/*
+
 // Задание 2
-int main()
+int main_2()
 {
     printf("Welcome\n"); // символ "\n" переносит курсор на следующую строку
     printf("to\nC!\n");
     return 0;
 }
 
-*/
-/*
+
+
 // Задание 3
-int main()
+int main_3()
 {
     printf("Welcome to C!\n"); // вся фраза в одну строку
     printf("Welcome");
@@ -31,11 +31,11 @@ int main()
     printf("Welcome\nto C!"); // в две строки через один принт
     return 0;
 }
-*/
+
 
 // Задание 4
-/*
-int main()
+
+int main_4()
 {
     int integer1, integer2, sum;
     printf("Vvedite pervoe celoe chislo\n");
@@ -46,11 +46,11 @@ int main()
     printf("Summa ravna %d\n", sum);
     return 0;
 }
-*/
 
-/*
+
+
 // Задание 5
-int main()
+int main_5()
 {
     int int1, int2, int3, sum, mult;
     printf("Vvedite pervoe celoe chislo\n");
@@ -65,12 +65,12 @@ int main()
     printf("Multiplication equals = %d", mult);
     return 0;
 }
-*/
 
 
-/*
+
+
 // Задание 6
-int main()
+int main_6()
 {
     int i1, i2, i3;      //  три переменные целого типа со знаком
     int ix=5, iy=-7;
@@ -89,11 +89,11 @@ int main()
     printf("Veshestvenoe f1 = %.3f\n Veshestvenoe f2 = %.2f\n", f1, f2);
     printf("Simvol symbl = %c\n Kod simvola %c = %d \n", symb, symb, symb);
 }
-*/
 
-/*
+
+
 // Задание 7
-int main()
+int main_7()
 {
     double i1, i2, i3;      //  три переменные вещественного типа со знаком
     int ix=5, iy=-7;
@@ -110,11 +110,11 @@ int main()
     printf("Veshestvenoe f1 = %.3f\n Veshestvenoe f2 = %.2f\n", f1, f2);
     printf("Simvol symbl = %c\n Kod simvola %c = %d \n", symb, symb, symb);
 }
-*/
 
-/*
+
+
 // Задание 8
-int main()
+int main_8()
 {
     double num1, num2, num3;          //  три переменные вещественного типа со знаком
     double sum, mult, avg;
@@ -128,11 +128,11 @@ int main()
     printf("Avg = %lf\n", avg);
     printf("Mult = %lf\n", mult);
 }
-*/
+
 
 // Инвидидуальное задание
 #include "math.h"
-int main()
+int main_9()
 {
     // R - радиус, l - длииа ребра, H - высота конуса
     // S(бок) = Pi*R*l
@@ -156,3 +156,4 @@ int main()
     printf("S polnoy poverhnoty = %lf\n", Sp);
     printf("V = %lf\n", V);
 }
+
