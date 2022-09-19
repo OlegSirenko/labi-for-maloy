@@ -1,7 +1,6 @@
 #include "stdio.h"
-
-int main()                      // Объявление функции
+#include "math.h"
+int main()
 {
-    printf ("Welcome to C!\n"); // функция вывода в терминал
-    return 0;                   // выход из функции. 0 - код успешного выполнения функции
+    return 0;
 }

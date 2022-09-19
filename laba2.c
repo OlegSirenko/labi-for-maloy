@@ -30,7 +30,7 @@ int main_2()
         printf("Круг вписывается в квадрат");
         return 0;
     }
-    if (diameter>= diagonal){
+    else{
         printf("Квадрат вписывается в круг");
     }
     return 0;
