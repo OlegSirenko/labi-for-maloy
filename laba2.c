@@ -23,15 +23,14 @@ int main_2()
     double diameter, diagonal; // Диаметр круга и диагональ квадрата.
     printf("Введите площадь круга и квадрата\n");
     scanf("%lf%lf", &S1, &S2); // %lf -- long float (вещественное ), %d -- decimal (целое)
-    diameter = 2 * sqrt(S1/Pi);
-    diagonal = sqrt(S2);
+    diameter = 2 * sqrt(S1/Pi); // формула 
+    diagonal = sqrt(S2); // формула
 
-    if (diameter <= diagonal){
+    if (diameter < diagonal){ // Если диаметр меньше диагонали => круг внутри квадрата
         printf("Круг вписывается в квадрат");
-        return 0;
     }
     else{
-        printf("Квадрат вписывается в круг");
+        printf("Квадрат вписывается в круг"); // Иначе квадрат внутри круга
     }
     return 0;
 }
