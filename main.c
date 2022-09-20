@@ -26,17 +26,18 @@ int main()
         if (min>arr[i]) {
             min = arr[i];
             index_min = i;
-
         }
     }
+    printf("минимум = %d, indexmin = %d\n", min, index_min);
 
 
     int sum_for_min = 0;
-    for(int i=0;i<index_min;i++){
+    for(int i=0;i<=index_min;i++){
         sum_for_min += arr[i];
+        printf("%d\n", arr[i]);
     }
 
-    printf("Сумма положительных равна = %d", sum);
-    printf("Сумма до минимума равна = %d", sum);
+    printf("Сумма положительных равна = %d\n", sum);
+    printf("Сумма до минимума равна = %d\n", sum_for_min);
     return 0;
 }

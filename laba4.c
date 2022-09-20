@@ -73,7 +73,6 @@ int main_2(){
         }
     }
 
-    // TODO check sum of minumum
     int sum_for_min = 0;
     for(int i=0;i<index_min;i++){
         sum_for_min += arr[i];
