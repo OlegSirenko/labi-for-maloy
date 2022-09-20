@@ -4,5 +4,39 @@
 
 int main()
 {
+    int n; // кол-во элементов массива
+    int sum = 0;
+    printf("Введите кол-во элементов массива:\n");
+    scanf("%d", &n);
+    int arr[n];
+    for (int i=0; i<n; i++){ // генерация массива случайных чисел
+        //arr[i] = -10 + rand() % (21);; // генерация случайного числа от -10 до 10
+        printf("Введите %d элемент массива: \n", i);
+        scanf("%d",  &arr[i]);
+
+        if (arr[i] > 0){
+            sum += arr[i]; // сразу находим сумму положительных чисел.
+        }
+    }
+
+    int min = arr[0];
+    int index_min = 0; // не знаю как сделать красивее...
+
+    for(int i=0;i<n;i++){ // ищем минимум
+        if (min>arr[i]) {
+            min = arr[i];
+            index_min = i;
+
+        }
+    }
+
+
+    int sum_for_min = 0;
+    for(int i=0;i<index_min;i++){
+        sum_for_min += arr[i];
+    }
+
+    printf("Сумма положительных равна = %d", sum);
+    printf("Сумма до минимума равна = %d", sum);
     return 0;
 }
