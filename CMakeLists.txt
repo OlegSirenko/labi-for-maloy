@@ -3,5 +3,5 @@ project(for_maloy C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(for_maloy main.c)
+add_executable(for_maloy laba4.c)
 target_link_libraries(for_maloy m)
