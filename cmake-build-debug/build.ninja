@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/tehnokrat/CLionProjects/for_maloy/cmake-build-debug/
 
 build cmake_object_order_depends_target_for_maloy: phony || CMakeFiles/for_maloy.dir
 
-build CMakeFiles/for_maloy.dir/laba4.c.o: C_COMPILER__for_maloy_Debug /home/tehnokrat/CLionProjects/for_maloy/laba4.c || cmake_object_order_depends_target_for_maloy
-  DEP_FILE = CMakeFiles/for_maloy.dir/laba4.c.o.d
+build CMakeFiles/for_maloy.dir/laba6.c.o: C_COMPILER__for_maloy_Debug /home/tehnokrat/CLionProjects/for_maloy/laba6.c || cmake_object_order_depends_target_for_maloy
+  DEP_FILE = CMakeFiles/for_maloy.dir/laba6.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/for_maloy.dir
   OBJECT_FILE_DIR = CMakeFiles/for_maloy.dir
@@ -63,7 +63,7 @@ build CMakeFiles/for_maloy.dir/laba4.c.o: C_COMPILER__for_maloy_Debug /home/tehn
 #############################################
 # Link the executable for_maloy
 
-build for_maloy: C_EXECUTABLE_LINKER__for_maloy_Debug CMakeFiles/for_maloy.dir/laba4.c.o
+build for_maloy: C_EXECUTABLE_LINKER__for_maloy_Debug CMakeFiles/for_maloy.dir/laba6.c.o
   FLAGS = -g
   LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles/for_maloy.dir
